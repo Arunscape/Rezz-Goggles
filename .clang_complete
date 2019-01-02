@@ -2,6 +2,7 @@
 -IC:\Users\aruns\.platformio\packages\framework-arduinosam\system\samd\CMSIS\CMSIS\Include
 -IC:\Users\aruns\.platformio\packages\framework-arduinosam\system\samd\CMSIS-Atmel\CMSIS\Device\ATMEL
 -IC:\Users\aruns\.platformio\packages\framework-arduinosam\variants\gemma_m0
+-IC:\Users\aruns\.platformio\lib\FastLED_ID126
 -IC:\Users\aruns\.platformio\lib\Adafruit NeoPixel_ID28
 -IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\HID
 -IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\I2S\src
