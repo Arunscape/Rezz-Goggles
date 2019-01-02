@@ -37,6 +37,8 @@
 - The feather huzzah would be interesting, since I theoretically could control the system with my phone, but that would result in a huge hit to battery life
 - I need to find an appropriate battery to use plus the JST connector
 - The internet suggests that the [fastLED](http://fastled.io/) library is much better than adafruit's [neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
+- it would be cool if I could get my hands on a microphone to see if I can make an effect that reacts to surrounding frequencies
+- maybe I want a multimeter
 
 
 ## Reference images
