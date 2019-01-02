@@ -1,0 +1,34 @@
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\cores\adafruit
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\system\samd\CMSIS\CMSIS\Include
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\system\samd\CMSIS-Atmel\CMSIS\Device\ATMEL
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\variants\gemma_m0
+-IC:\Users\aruns\.platformio\lib\Adafruit NeoPixel_ID28
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\HID
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\I2S\src
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\SAMD_AnalogCorrection\src
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\SDU\src
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\SPI
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\USBHost\src
+-IC:\Users\aruns\.platformio\packages\framework-arduinosam\libraries\__cores__\adafruit\Wire
+-IC:\Users\aruns\.platformio\packages\toolchain-gccarmnoneeabi\arm-none-eabi\include
+-IC:\Users\aruns\.platformio\packages\toolchain-gccarmnoneeabi\arm-none-eabi\include\c++\4.8.4
+-IC:\Users\aruns\.platformio\packages\toolchain-gccarmnoneeabi\arm-none-eabi\include\c++\4.8.4\arm-none-eabi
+-IC:\Users\aruns\.platformio\packages\toolchain-gccarmnoneeabi\lib\gcc\arm-none-eabi\4.8.4\include
+-IC:\Users\aruns\.platformio\packages\toolchain-gccarmnoneeabi\lib\gcc\arm-none-eabi\4.8.4\include-fixed
+-IC:\Users\aruns\.platformio\packages\tool-unity
+-IC:\Users\aruns\Downloads\Rezz-Goggles\include
+-IC:\Users\aruns\Downloads\Rezz-Goggles\src
+-DPLATFORMIO=40000
+-DARDUINO_ARCH_SAMD
+-DARDUINO_GEMMA_M0
+-DARM_MATH_CM0PLUS
+-DCRYSTALLESS
+-DADAFRUIT_GEMMA_M0
+-D__SAMD21E18A__
+-DF_CPU=48000000L
+-DUSBCON
+-DARDUINO=10805
+-DUSB_VID=0x239A
+-DUSB_PID=0x801C
+-DUSB_PRODUCT="Adafruit Gemma M0"
+-DUSB_MANUFACTURER="Adafruit"
