@@ -9,6 +9,7 @@
 - 2x [24 LED rings](https://www.adafruit.com/product/2862)
 - 2x [16 LED rings](https://www.adafruit.com/product/2862)
 - [adafruit trinket m0](https://www.adafruit.com/product/3500) or [gemma m0](https://www.adafruit.com/product/3501) or feather [huzzah](https://www.adafruit.com/product/3046)
+  - For now, I will be using the gemma
 
 ## Datasheets
 - https://cdn-shop.adafruit.com/datasheets/WS2812.pdf
@@ -19,25 +20,23 @@
 - FastLED Library https://github.com/FastLED/FastLED/wiki/Overview
 
 # Current challenges:
-- Choose a board to work with. Shouldn't be too hard to switch later, but may be annoying to switch
-- The 8 individual LEDs have to be surface mounted I think, which means I probably have to design a pcb to be in the shape that I want. This would also involve figuring out the proper spacing for the LEDs since it's not already arranged nicely like in the rings
--figure out how to power the LEDs
+- I think the 8 LEDs in the centre have to be surface mounted which means I need a custom PCB
+  - I messed around with Autodesk Eagle for the first time, and made something that looks good to a n00b like me, but probably has lots of small issues
+- I need to figure out how to power the LEDs
   - [adafruit guide](https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels)
   - it seems that the board alone won't be able to power the LEDs properly.
   - probably use a 3.7v li-on battery source
-  - I might have to buy a capacitor. I might have enough to wire in parallel, but for the final product it shouldn't be that janky
+  - I might have to buy a 1000uF capacitor. I don't know if I can just find one laying around that's that size
 - 3D printing the glasses frame
-  - I'm not even sure where to start with this one
   - Probably search for a .stl somewhere
   - figure out which CAD software to use
   - prototype from that .stl -> need to figure out how to fit over prescription glasses
 
 ## Random thoughts
-- I'm leaning towards using the Gemma m0 because it already has a JST connector, plus it has a built in on/off switch
-- The feather huzzah would be interesting, since I theoretically could control the system with my phone, but that would result in a huge hit to battery life
+- The feather huzzah would be interesting, since I theoretically could control the system with my phone, but that would result in a huge hit to battery life. I'll stick to using the gemma for now
 - I need to find an appropriate battery to use plus the JST connector
 - The internet suggests that the [fastLED](http://fastled.io/) library is much better than adafruit's [neopixel library](https://github.com/adafruit/Adafruit_NeoPixel)
-- it would be cool if I could get my hands on a microphone to see if I can make an effect that reacts to surrounding frequencies
+- it would be cool if I could get my hands on a microphone to see if I can make an effect that reacts to surrounding frequencies. That would be tacked when I'm nearly finished the project
 - maybe I want a multimeter
 
 
