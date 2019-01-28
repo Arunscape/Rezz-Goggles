@@ -20,17 +20,20 @@
 - FastLED Library https://github.com/FastLED/FastLED/wiki/Overview
 
 # Current challenges:
-- I think the 8 LEDs in the centre have to be surface mounted which means I need a custom PCB
-  - I messed around with Autodesk Eagle for the first time, and made something that looks good to a n00b like me, but probably has lots of small issues
-- I need to figure out how to power the LEDs
+- I have a friend willing to help design the surface mount PCB for the LEDs in the centre
+- Powering the LEDs
   - [adafruit guide](https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels)
-  - it seems that the board alone won't be able to power the LEDs properly.
-  - probably use a 3.7v li-on battery source
-  - I might have to buy a 1000uF capacitor. I don't know if I can just find one laying around that's that size
+  - I'm leaning towards using 4x AA NiMH batteries or 3x AA Alkalines
+  - using NiMH will have an upfront cost of like $50. Alternatively,
+  I can just use some Alaline AAs and just get a battery holder + JST connectors
+  - I'll buy a 1000uF capacitor. There's one on digikey with a rating for 10V
 - 3D printing the glasses frame
   - Probably search for a .stl somewhere
-  - figure out which CAD software to use
+  - figure out which CAD software to use - ask fren for help
   - prototype from that .stl -> need to figure out how to fit over prescription glasses
+
+## Random notes:
+- Use a 300-500 ohm resistor to data in of the first neopixel
 
 ## Random thoughts
 - The feather huzzah would be interesting, since I theoretically could control the system with my phone, but that would result in a huge hit to battery life. I'll stick to using the gemma for now
