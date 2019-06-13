@@ -1,4 +1,4 @@
-# An attempt at making my own pair of Rezz Goggles
+# [WIP] An attempt at making my own pair of Rezz Goggles
 ###### Why? For fun.
 
 ###### For now, the readme will be documenting my progress
