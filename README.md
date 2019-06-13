@@ -47,4 +47,4 @@
 
 ![](http://trc.daily-beat.com/wp-content/uploads/sites/2/2016/12/hs16a_0251-copy.jpg)
 
-!{}(https://pbs.twimg.com/media/DZZvvgZUMAAbX_y.jpg)
+![](https://pbs.twimg.com/media/DZZvvgZUMAAbX_y.jpg)
