@@ -23,10 +23,12 @@
 - I have a friend willing to help design the surface mount PCB for the LEDs in the centre
 - Powering the LEDs
   - [adafruit guide](https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels)
-  - I'm leaning towards using 4x AA NiMH batteries or 3x AA Alkalines
-  - using NiMH will have an upfront cost of like $50. Alternatively,
-  I can just use some Alaline AAs and just get a battery holder + JST connectors
-  - I'll buy a 1000uF capacitor. There's one on digikey with a rating for 10V
+  - ~~I'm leaning towards using 4x AA NiMH batteries or 3x AA Alkalines~~
+  - ~~using NiMH will have an upfront cost of like $50. Alternatively,~~
+  I can just use some Alkaline AAs and just get a battery holder + JST connectors
+  - ~~I'll buy a 1000uF capacitor. There's one on digikey with a rating for 10V~~
+  - Looks like 3x AA batteries are the way to go. no capacitor needed
+  - this looks like a cool battery holder https://www.adafruit.com/product/3287
 - 3D printing the glasses frame
   - Probably search for a .stl somewhere
   - figure out which CAD software to use - ask fren for help
